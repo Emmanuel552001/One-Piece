@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #021024;
+    padding: 10px 0;
+  }
+  .menu {
+    list-style: none;
+    display: flex;         
+    justify-content: center;
+  }
+  .menu li {
+    margin: 0 20px;
+  }
+
+  .navbar {
+    background-color: #021024;
+   
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .menu li {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .menu li:hover {
+    transform: translateY(-2px);
+    color: #00e0ff;
+  }
+  
